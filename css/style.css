@@ -1,0 +1,47 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ nav{
+    background-color:#111 ;
+ }
+ nav span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: pink;
+    margin-left: 50px;
+    font-size: 30px;
+    text-align: center;
+ }
+ .sidebar{
+    width: 250px;
+    text-align: center;
+    font-family: arial;
+    padding: 50px 0;
+    height:calc(100vh - 40px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.35s;
+ }
+
+  .active{
+   transform: scaleX(1);
+  }
+
+
+
+
+ .sidebar ul li a{
+    text-decoration: none;
+    color: #888;
+    display: block;
+    padding:10px ;
+    margin-bottom: 20px;
+   border-bottom: 1px solid #ccc;
+  
+ }
